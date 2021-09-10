@@ -6,9 +6,9 @@ Goal: The purpose of this image is to Create Node js Application
 
 Be in the directory Node-Js-Sample-App
 - `cd Node-Js-Sample-App`
-- `docker build -t ravi2krishna/node-app .`
+- `docker build -t nareshreddy1238/node-app .`
 - `docker run -p 8080:8080 -d <user-name>/<image-name>`
-- `docker run -p 8080:8080 -d ravi2krishna/node-app`
+- `docker run -p 8080:8080 -d nareshreddy1238/node-app`
 
 ### Saving the image to docker hub
 - `Register for an account on hub.docker.com`
@@ -16,7 +16,7 @@ Be in the directory Node-Js-Sample-App
 - `# docker login`
 - `# docker images`      
 - `# docker push docker-user_id/image-name`
-- `# docker push ravi2krishna/node-app`
+- `# docker push nareshreddy1238/node-app`
 
         
         
